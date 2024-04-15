@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Centralizada</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            border-radius: 20px; /* Define o raio da borda arredondada */
+            overflow: hidden; /* Garante que a imagem não ultrapasse a borda */
+            box-shadow: 0 0 20px 5px rgba(0, 0, 255, 0.8); /* Adiciona uma sombra azul com blur */
+        }
+    </style>
+</head>
+<body>
+    <img src="https://giffiles.alphacoders.com/158/158674.gif" alt="Imagem Centralizada">
+</body>
+</html>
